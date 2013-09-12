@@ -22,7 +22,7 @@ a:hover{color:#467b23;}
 .bg40{ height:40px;overflow:hidden; font-size:0; clear:both; background:#fff;}
 /*menu nav*/
 #nav ul li{ float:left; width:32.9%; height:37px; overflow:hidden; background:url(../images/mbg_03.png) repeat-x; text-align:center;}
-#nav ul li a{ display:block; float:left; height:35px; line-height:37px; text-align:center; width:100%; font-size:18px; font-family:"SimHei";}
+#nav ul li a{  height:35px; line-height:37px; text-align:center; width:100%; font-size:18px; font-family:"SimHei";}
 #nav ul .cur a{ border-bottom:2px solid #467b23; color:#467b23;}
 #nav ul .bg{ background:url(../images/mbg_05.png) no-repeat; width:2px;}
 #main{ padding:0 12px; }
