@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+body{padding:0px; margin:0px; height:100%; text-transform:capitalize; font-family:"宋体"; font-size:12px; line-height:24px; background:#f2edc9;
+min-width:320px;}
+ul,ol{List-style-type:none; List-style-image:none;}
+img {Border:0px; Vertical-align:middle;}
+input,textarea{outline-style:none;}
+textarea{resize: none;}
+a {text-decoration:none; color:#000;}
+a:hover{color:#467b23;}
+.hide{visibility:hidden;}
+.clearfix{zoom:1;}
+.clearfix:after{content:"."; display:block; height:0; visibility:hidden; clear:both;}
+.bk80{height:80px; overflow:hidden; font-size:0; clear:both;}
+.bk50{height:50px; overflow:hidden; font-size:0; clear:both;}
+.bk40{height:40px; overflow:hidden; font-size:0; clear:both;}
+.bk30{height:30px; overflow:hidden; font-size:0; clear:both;}
+.bk20{height:20px; overflow:hidden; font-size:0; clear:both;}
+.bk10{height:10px; overflow:hidden; font-size:0; clear:both;}
+.border{height:1px; overflow:hidden; font-size:0; clear:both;}
+.bg40{ height:40px;overflow:hidden; font-size:0; clear:both; background:#fff;}
+/*menu nav*/
+#nav ul li{ float:left; width:32.9%; height:37px; overflow:hidden; background:url(../images/mbg_03.png) repeat-x; text-align:center;}
+#nav ul li a{ display:block; float:left; height:35px; line-height:37px; text-align:center; width:100%; font-size:18px; font-family:"SimHei";}
+#nav ul .cur a{ border-bottom:2px solid #467b23; color:#467b23;}
+#nav ul .bg{ background:url(../images/mbg_05.png) no-repeat; width:2px;}
+#main{ padding:0 12px; }
+#main .intro{ overflow:hidden;background:#fff;}
+#main .intro p{ padding:10px 12px;font-size:16px; font-family:"SimHei";}
+#main .intro a{color:#467b23;}
+/*content*/
+.content ul{padding:0 12px; background:#fff;}
+.content ul li{ height:48px; line-height:48px; border-top:1px solid #dedfdf;}
+.content ul li a{font-size:16px; font-family:"SimHei"; display:block; height:48px;}
+.content li:nth-child(1){ border-top:medium none;}
+.content ul>li>a:after{ content:url(../images/pa_09.png); float:right;}
+/*footer*/
+#footer ul li{ float:left; width:31%;}
+#footer ul li a{ display:inline-table; float:left; height:72px; width:72px; margin:0 20px;}
+#footer li:nth-child(3){ margin-right:0;}
+#footer ul li .sy{ background:url(../images/pa_13.png) no-repeat scroll center;}
+#footer ul li .zx{ background:url(../images/pa_15.png) no-repeat scroll center;}
+#footer ul li .dh{ background:url(../images/pa_17.png) no-repeat scroll center;}
+#footer .copy{ padding-left:25px;}
+/*index end&&speaciallist start*/
+#main .special p{ text-indent:25px; font-size:14px; overflow:hidden; padding-bottom:25px;}
+#main .specialists{ background:#fff; overflow:hidden; padding-left:12px; padding-bottom:30px;}
+#main .specialists img{ display:block; float:left;overflow:hidden;}
+#main .specialists p{ padding-left:15px;overflow:hidden; font-family:"SimHei"; font-size:14px;}
+#main .specialists dt p{ font-size:16px; font-weight:bold; line-height:normal; padding-bottom:5px;}
+/*z-content*/
+#main .z-content{ background:#fff;}
+#main .z-content .head{ text-align:center;}
+#main .z-content h2{ line-height:50px;font-family:"SimHei";}
+#main .z-content .head img{ margin:20px 0;}
+#main .z-content p{ text-indent:25px; padding:0 12px; font-family:"SimHei"; font-size:14px;}
+#main .z-content h3{font-family:"SimHei"; padding-left:12px; }
+#main .z-content ul li a{font-family:"SimHei"; padding-left:12px; color:#467b23; font-size:14px;}
+#main .wenz h2{ line-height:25px;padding-top:10px;}
+#main .fenye{ background:#fff; overflow:hidden; text-align:center;}
+#main .showpage{ font-size:16px; font-family:"SimHei"; color:#467b23;}
+#main .showpage a{color:#467b23; padding:0 5px;}
+.xiangmu{ text-align:center;}
+.xiangmu li a{ display:inline-table; width:40%; font-size:18px; font-weight:bold; font-family:"SimHei"; height:37px; line-height:37px; color:#fff; float:left; margin-top:10px; margin-left:6%; margin-right:1%;
+background:#467b23; text-align:center;}
+.xmn{ height:37px; background:#e2e2e2; text-align:center; width:91%; margin-left:4%;}
+.xmn h2{ font-family:"SimHei"; font-size:24px; color:#726443; height:37px; line-height:37px;}
